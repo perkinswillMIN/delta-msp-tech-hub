@@ -159,13 +159,10 @@ h1, h2, h3, h4 {
 
 .welcome {
     font-family: 'pw_serifbold';
-    position: absolute;
-    z-index: 3;
+    
     font-size: 5em;
     color: #fff;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+   
     filter: drop-shadow(5px 5px 4px #000);
     -webkit-animation: fade;
     -webkit-animation-duration: 7s;
@@ -1681,4 +1678,23 @@ footer h3 {
     footer h3 {
         font-size: 3vw;
     }
+}
+
+
+
+
+
+.bg-img {
+  width: 100%;
+}
+
+.buttons-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  font-size: 5em;
+  color: #fff;
+  left: 50%;
+  top: 50%;
 }
