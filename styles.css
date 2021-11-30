@@ -107,7 +107,7 @@ h1, h2, h3, h4 {
 }
 
 .button {
-  background-color: darkblue;
+  background-color: #003268;
   padding: 1em;
   font-size: .5em;
   width: 100%;
@@ -119,12 +119,20 @@ h1, h2, h3, h4 {
   text-decoration: none;
   color: #fff;
   padding: .5em;
+  background-color: #003268;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 .buttons-container a:hover {
   font-size: .5em;
   text-decoration: none;
-  color: #E3132C;
+  background-color: #E3132C;
 }
 .bg-img {
   width: 100%;
