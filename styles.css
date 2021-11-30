@@ -162,11 +162,14 @@ h1, h2, h3, h4 {
     font-size: .5em;
     color: #fff;
     text-align: center;
+    margin-bottom:1em;
+
     filter: drop-shadow(5px 5px 4px #000);
     -webkit-animation: fade;
     -webkit-animation-duration: 7s;
     -webkit-animation-iteration-count: 1;
     }
+    
     
 
 }
@@ -176,8 +179,20 @@ h1, h2, h3, h4 {
   padding: 1em;
   font-size: .5em;
   width: 100%;
+  margin: 1em;
 }
 
+.buttons-container a {
+  font-size: .5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons-container a:hover {
+  font-size: .5em;
+  text-decoration: none;
+  color: darkblue;
+}
 .bg-img {
   width: 100%;
 }
